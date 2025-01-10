@@ -1,5 +1,5 @@
 class Pooka {
-    constructor(game, origX, origY, polar, speed) {
+    constructor(game, origX, origY, polar) {
         Object.assign(this, { game, origX, origY, polar });
         this.spritesheet = ASSET_MANAGER.getAsset("./sheet.png");
         
