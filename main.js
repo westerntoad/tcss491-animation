@@ -13,7 +13,7 @@ ASSET_MANAGER.downloadAll(() => {
 
     gameEngine.start();
 
-    const numPookas = 3
+    const numPookas = 6
     const pookas = []
     const centerX = canvas.width / 2;
     const centerY = canvas.height / 2;
